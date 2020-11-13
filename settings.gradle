@@ -9,6 +9,13 @@
  *
  *
  */
-
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+        jcenter()
+        google()
+    }
+}
 include ':app'
 rootProject.name = "uf-apk-delivery-example"
